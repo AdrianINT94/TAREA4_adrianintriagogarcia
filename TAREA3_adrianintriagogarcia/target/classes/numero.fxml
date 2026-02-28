@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing ="10" alignment = "CENTER"
+	xmlns="http://javafx.com/javafx/17"
+	xmlns:fx="http://javafx.com/fxml"
+	fx:controller="base.controller.NumeroController">
+
+	<Label text="Gestion de Numeros"/>
+	<TextField fx:id="txtNombre" prompText ="Nombre del numero "/>
+	<TextField fx:id="txtDuracion" prompText="Duracion"/>
+	<ComboBox fx:id="cbEspectaculo" prompText ="Seleccionar espectaculo"/>
+	<Label text="Seleccionar artistas"/>
+	<ListView fx:id="listaArtistas" prefHeight ="100"/>
+	
+	<Button text="Guardar" onAction ="#guardar"/>
+	
+	<Label text ="Lista de numeros"/>
+	<ListView fx:id="listaNumeros" prefHeight="150"/> 
+
+
+</VBox>
