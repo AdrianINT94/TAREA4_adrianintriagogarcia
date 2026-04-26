@@ -19,6 +19,7 @@ public class Incidencia {
 	private Long IdPersonaReporta;
 	private Long IdNumero;
 	private Long IdEspectaculo;
+	private ResolucionIncidencia resolucion;
 	
 	public Incidencia() {}
 
@@ -84,6 +85,14 @@ public class Incidencia {
 
 	public void setIdEspectaculo(Long idEspectaculo) {
 		IdEspectaculo = idEspectaculo;
+	}
+
+	public ResolucionIncidencia getResolucion() {
+		return resolucion;
+	}
+
+	public void setResolucion(ResolucionIncidencia resolucion) {
+		this.resolucion = resolucion;
 	}
 	
 }
